@@ -2,7 +2,7 @@
 layout:     post
 title:      "My resume as a programmer"
 subtitle:   ""
-date:       20125-06-09 12:00:00
+date:       2025-06-09 12:00:00
 author:     "Xinyu Chen"
 header-img: ""
 catalog: true
