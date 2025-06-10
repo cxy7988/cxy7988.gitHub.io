@@ -2,12 +2,12 @@
 layout:     post
 title:      "My resume as a business analyst"
 subtitle:   ""
-date:       2015-01-29 12:00:00
+date:       2025-06-10 12:00:00
 author:     "Xinyu Chen"
-header-img: "img/post-bg-2015.jpg"
+header-img: ""
 catalog: true
 tags:
-    - Meta
+    - Resume
 ---
 
 # 陈新予
