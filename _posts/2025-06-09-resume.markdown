@@ -1,96 +1,133 @@
 ---
 layout:     post
-title:      "My resume as a programmer"
+title:      "Who is Brain"
 subtitle:   ""
 date:       2025-06-09 12:00:00
-author:     "Xinyu Chen"
+author:     "Brian"
 header-img: ""
 catalog: true
 tags:
     - Resume
 ---
 
-# 陈新予
+# Xinyu Chen
 
-- **性别**：男  
-- **出生日期**：2004 年 7 月  
-- **地点**：浙江杭州  
-- **电话**：18989723988  
-- **邮箱**：cxy7988@gmail.com  
-- **微信号**：v18989723988  
+**Phone:** +86 189 8972 3988
+**Email:** [cxy7988@gmail.com](mailto:cxy7988@gmail.com)
+**Location:** Hangzhou, China
 
 ---
 
-## 教育背景
+## Education
 
-**温州肯恩大学**  
-主修：商业分析  
-辅修：计算机科学  
-时间：2022 年 9 月 – 至今
+### Wenzhou‑Kean University, CN
 
-- GPA：3.86 / 4.00（专业前 10%）
-- 奖项：2024 年院长奖学金三等奖、2024 年海外学习奖学金一等奖
-- 核心课程：计算机编程，计算机系统与架构，虚拟现实开发，数据库管理，微积分，线性代数，统计学，离散数学
+**B.S. in Management (Business Analytics), minor in Computer Science**
+*Sep 2022 – Present*
 
----
+* **GPA:** 3.86/4 (Top 4 in major)
+* **Courses:** Java Programming (A), Operating System (A), Database (A), AR Development (A), Data Structure, Linear Algebra (A), Statistics (A), Discrete Mathematics, Calculus
+* **Rewards:**
 
-## 个人技能
+  * 2025 International Study Scholarship First Prize (Top 10)
+  * 2024 College Scholarship Third Prize (Top 20%)
 
-- **编程语言**：熟悉 Python；掌握 Java，SQL；了解 C++，C#
-- **操作系统**：适应 Windows、Linux、MacOS 多系统环境
-- **外语能力**：CET-4，雅思 6.5，具备良好的英文阅读与书写能力
+#### Exchange at Kean University, US
 
----
-
-## 项目经历
-
-### 线上商品虚拟现实 Demo 项目（独立开发）  
-*2025 年 4 月 - 2025 年 5 月*
-
-- **简介**：基于 Unity 开发商品虚拟展示系统 Demo，支持在 AR 环境中查看商品效果并模拟功能行为
-- **职责**：软件 UI 搭建、3D 模型交互逻辑、场景切换管理与性能优化
-- **技术栈**：Unity, C#, AR Foundation, Git
-- **技术挑战**：修复模型材质错乱与 AR 交互识别不灵敏的问题
+*Aug 2024 – Mar 2025*
 
 ---
 
-### xv6 类 Unix 系统优化项目（后端开发）  
-*2025 年 2 月 - 2025 年 5 月*
+## Work Experience
 
-- **简介**：参与 xv6 系统功能增强，包括关机命令与调度器优化
-- **职责**：
-  - 实现 `shutdown()` 系统调用，支持一键安全关机
-  - 设计并实现 MLFQ 调度器，动态优先级与 aging 策略
-  - 编写 Lazy Page Allocator，提升内存利用效率
-- **技术栈**：C++，Git，Microsoft Azure，QEMU
-- **技术挑战**：
-  - 实现懒加载物理页分配，解决 page fault 崩溃
-  - 调度中避免 starvation，引入 aging 策略
+### Firstack Limited Liability Company
 
----
+#### Software Design Engineer
 
-### 树莓派软路由及智能家居系统（独立开发）  
-*2023 年 4 月 - 至今*
+*June 2025 – Aug 2025*
 
-- **简介**：打造低成本软路由与智能家居控制中心，统一设备接入与控制
-- **职责**：
-  - 搭建 OpenWrt 系统，配置 Clash 实现 VPN
-  - 部署 HomeAssistant 实现设备桥接
-  - 配置 AdGuard 广告拦截
-- **技术栈**：Raspberry Pi, Linux, Docker, Bash, Apple HomeKit, Clash
+* Developed **Qt**‑based front‑end interfaces and implemented backend event logic (10,000 LOC), leveraging signal‑slot patterns to increase response speed by 60%.
+* Maintained and optimized the C/C++ development framework by refactoring critical networking and data‑processing modules, boosting code reusability and reducing system bugs by 5%.
+* Built and integrated **SQL** database modules for storing, filtering, and analyzing semiconductor debugging data, enabling real‑time waveform output.
+
+#### Financial Data Assistant
+
+*June 2023 – Aug 2023*
+
+* Optimized financial workflows by integrating **SQLite**, overcoming Excel performance limits; cleaned & validated datasets covering \$100 M in fixed assets, and produced visual reports for management.
+* Coordinated with audit teams, banks, and securities firms to organize, analyze, and visualize 200+ financial documents, ensuring CSRC compliance and shortening the IPO reporting cycle by 2 weeks.
 
 ---
 
-### 个人博客开发与维护（独立开发）  
-*2023 年 8 月 - 至今*
+## Projects
 
-- **简介**：构建支持用户交互的博客系统，实现内容展示与管理
-- **职责**：
-  - 部署后端服务与 SQL 数据库，优化前端样式
-  - 数据从阿里云迁移至 Azure，完成备份恢复与 SSL 配置
-- **技术栈**：Linux, Microsoft Azure, Nginx, SQL, Typecho, JavaScript, Shell
-- **技术挑战**：
-  - 图片加载速度慢，引入 CDN 与懒加载技术显著优化体验
+### Campus Card & Utility Fee Cross‑Platform Query App
+
+*Aug 2025 – Now*
+
+* Developed an **iOS** app (frontend & backend) in **Swift**, featuring asynchronous data fetching, dynamic content loading, and dual access modes (user/guest); improved runtime efficiency by 30%.
+* Reverse‑engineered the university’s OAuth2 authentication via **Fiddler** to extract login parameters for secure access.
+* Configured remote server with **Python** and **GitHub Actions** to schedule daily APNs push notifications about utility expenses.
+
+### Oscilloscope Software with Communication and Data Filtering
+
+*June 2025 – Aug 2025*
+
+* Built a C++ oscilloscope app supporting real‑time serial data communication and advanced digital filtering at up to 3 MB/s.
+* Designed the UI framework in **Qt**, using Qt Designer and JSON‑driven dynamic UI generation for customizable user experiences.
+* Implemented MVC architecture to decouple data management from presentation, achieving 20% faster TableView rendering on large datasets.
+
+### xv6 Operating System Optimization
+
+*Feb 2025 – May 2025*
+
+* Added a shutdown system call for user‑mode safe shutdown using I/O port instructions, reducing system reset time by 100%.
+* Designed a Multi‑Level Feedback Queue scheduler with dynamic priority and aging policy, improving multitasking fairness and responsiveness by 60%.
+* Developed a Lazy Page Allocator for on‑demand physical page allocation, cutting unused memory footprint and boosting efficiency.
+
+### Virtual Reality Shopping Display System for Pop‑up Stores
+
+*Apr 2025 – May 2025*
+
+* Created an **AR** shopping system for iOS/Android that scans product labels and displays interactive 3D models, reducing sampling costs by 95%.
+* Built the frontend in **Unity**, managing scenes and UI logic for dynamic product interaction.
+* Programmed backend in **C#** to optimize animations and event triggers, lowering interaction latency by 35%.
+
+---
+
+## Academic Activity
+
+### Finance Research: Do Repurchases Increase Innovation Output?
+
+*Sep 2023 – Present*
+
+* Analyzed over 1 million financial and patent records, uncovering a positive correlation between stock buybacks and patent output.
+* Developed Python web crawlers and used SQL for large‑scale data collection & cleaning, cutting preparation time from weeks to days.
+* Built regression models and interactive **Tableau** dashboards; insights were adopted by faculty advisors.
+
+### KPMG ESG Case Study Competition (Finalist)
+
+*Oct 2023*
+
+* Led a team of 4 to nationals by managing milestones and leading all data analysis and visualization.
+* Processed large ESG datasets with Python and BI tools, extracted corporate indicators, and ran regression analyses on ESG investment vs. financial performance.
+* Designed dashboards for final presentations, directly contributing to our qualification.
+
+### ZJU Research Project: Rural Elderly Care System
+
+*July 2022 – Aug 2022*
+
+* Conducted surveys and interviews with 100+ rural elderly, providing data for policy recommendations.
+* Analyzed results in Excel to identify critical issues.
+* Co‑authored a report proposing targeted improvements for local government advocacy.
+
+---
+
+## Skills
+
+* **Programming & Data:** Python (Pandas, NumPy, Scikit‑learn), SQL, R, Java, C++, C#, Stata, KNIME, Tableau, Microsoft Office
+* **Data Analysis & Visualization:** Data wrangling, statistical modeling, regression analysis, dashboard creation, data cleaning & ETL
+* **Languages:** Chinese (native), English (fluent)
 
 
 
