@@ -1,9 +1,9 @@
 # Site settings
-title: Home Page
-SEOTitle: Welcome to Brian's blog
+title: Brian's Blog
+SEOTitle: Brian's Blog
 header-img: img/home-bg.jpg
 email: cxy7988@gmail.com
-description: "Here is Brian's blog."
+description: "Congratulations on discovering an interesting website."
 keyword: "Business Analyst, Data Engineer, Software Design Engineer, Web Developer"
 url: "https://cxy7988.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
