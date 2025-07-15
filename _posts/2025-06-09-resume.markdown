@@ -12,34 +12,27 @@ tags:
 
 # Xinyu Chen
 
-**Phone:** +86 189 8972 3988
-**Email:** [cxy7988@gmail.com](mailto:cxy7988@gmail.com)
-**Location:** Hangzhou, China
+* **Phone:** +86 189 8972 3988
+* **Email:** [cxy7988@gmail.com](mailto:cxy7988@gmail.com)
+* **Location:** Hangzhou, China
 
----
 
 ## Education
 
 ### Wenzhou‑Kean University, CN
 
 **B.S. in Management (Business Analytics), minor in Computer Science**
+
 *Sep 2022 – Present*
 
 * **GPA:** 3.86/4 (Top 4 in major)
-* **Courses:** Java Programming (A), Operating System (A), Database (A), AR Development (A), Data Structure, Linear Algebra (A), Statistics (A), Discrete Mathematics, Calculus
+* **Courses:** Java Programming, Operating System, Database, AR Development, Data Structure, Linear Algebra, Statistics, Discrete Mathematics, Calculus
 * **Rewards:**
-
   * 2025 International Study Scholarship First Prize (Top 10)
   * 2024 College Scholarship Third Prize (Top 20%)
 
-#### Exchange at Kean University, US
-
-*Aug 2024 – Mar 2025*
-
----
 
 ## Work Experience
-
 ### Firstack Limited Liability Company
 
 #### Software Design Engineer
@@ -57,7 +50,6 @@ tags:
 * Optimized financial workflows by integrating **SQLite**, overcoming Excel performance limits; cleaned & validated datasets covering \$100 M in fixed assets, and produced visual reports for management.
 * Coordinated with audit teams, banks, and securities firms to organize, analyze, and visualize 200+ financial documents, ensuring CSRC compliance and shortening the IPO reporting cycle by 2 weeks.
 
----
 
 ## Projects
 
@@ -93,7 +85,6 @@ tags:
 * Built the frontend in **Unity**, managing scenes and UI logic for dynamic product interaction.
 * Programmed backend in **C#** to optimize animations and event triggers, lowering interaction latency by 35%.
 
----
 
 ## Academic Activity
 
@@ -121,7 +112,6 @@ tags:
 * Analyzed results in Excel to identify critical issues.
 * Co‑authored a report proposing targeted improvements for local government advocacy.
 
----
 
 ## Skills
 
