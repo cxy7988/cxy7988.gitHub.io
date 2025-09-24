@@ -54,7 +54,9 @@
                 <div class="floating-cards">
                     <div class="tech-card" style="--delay: 0s">Python</div>
                     <div class="tech-card" style="--delay: 0.5s">Java</div>
-                    <div class="tech-card" style="--delay: 1s">C/C++</div>
+                    <div class="tech-card" style="--delay: 0s">SQL</div>
+                    <div class="tech-card" style="--delay: 0s">R</div>
+                    <div class="tech-card" style="--delay: 1s">C++</div>
                     <div class="tech-card" style="--delay: 1.5s">Machine Learning</div>
                 </div>
             </div>
@@ -96,9 +98,7 @@
                     </div>
                 </div>
                 <div class="about-image">
-                    <div class="image-placeholder">
-                        <div class="image-content">Your Photo</div>
-                    </div>
+                    <img src="myPhoto.jpg" alt="Xinyu Chen" class="profile-photo">
                 </div>
             </div>
         </div>
@@ -113,8 +113,9 @@
                     <div class="project-image">
                         <div class="project-overlay">
                             <div class="project-links">
-                                <a href="https://github.com/cxy7988" class="project-link">GitHub</a>
-                                <a href="#" class="project-link">Details</a>
+                                <a href="https://github.com/cxy7988/cardQuery" class="project-link">Server</a>
+                                <a href="https://github.com/cxy7988/cardQueryApp_ios" class="project-link">iOS</a>
+                                <a href="https://github.com/cxy7988/cardQueryApp_android" class="project-link">Android</a>
                             </div>
                         </div>
                     </div>
@@ -122,142 +123,125 @@
                         <h3 class="project-title">Campus Card & Utility Query App</h3>
                         <p class="project-description">
                             Full-stack mobile application featuring reverse-engineered OAuth2 authentication, Flask backend with RESTful APIs, 
-                            and iOS frontend with push notifications. Deployed with 100+ active users.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Swift</span>
-                            <span class="tech-tag">Flask</span>
-                            <span class="tech-tag">SQLite</span>
-                            <span class="tech-tag">REST API</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://github.com/cxy7988" class="project-link">GitHub</a>
-                                <a href="#" class="project-link">Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Oscilloscope Software System</h3>
-                        <p class="project-description">
-                            Real-time data visualization application built with Qt and C++, featuring MVC architecture, 
-                            digital filtering, and high-performance rendering for 3MB/s data streams.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">C++</span>
-                            <span class="tech-tag">Qt</span>
-                            <span class="tech-tag">MVC</span>
-                            <span class="tech-tag">JSON</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://github.com/cxy7988" class="project-link">GitHub</a>
-                                <a href="#" class="project-link">Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Machine Learning Competition</h3>
-                        <p class="project-description">
-                            Three-stage Stacking framework combining neural networks with Random Forest and XGBoost, 
-                            achieving 97.17% validation accuracy in personality prediction challenge.
+                            and iOS frontend with push notifications.
                         </p>
                         <div class="project-tech">
                             <span class="tech-tag">Python</span>
-                            <span class="tech-tag">XGBoost</span>
+                            <span class="tech-tag">SQLite</span>
+                            <span class="tech-tag">Linux</span>
+                            <span class="tech-tag">Swift</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/cxy7988/Kaggle_Predict_the_Introverts_from_the_Extroverts" class="project-link">GitHub</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Prediction of the Introverts </h3>
+                        <p class="project-description">
+                           Stacking framework combining neural networks, achieving 97.17% validation accuracy in Kaggle prediction challenge.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Machine learning</span>
                             <span class="tech-tag">Neural Networks</span>
                             <span class="tech-tag">SMOTE</span>
                         </div>
                     </div>
                 </div>
-            </div>
-            
-            <!-- Additional Projects -->
-            <div class="additional-projects" style="margin-top: 4rem;">
-                <h3 style="text-align: center; margin-bottom: 3rem; color: var(--text-primary);">Additional Projects</h3>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="https://github.com/cxy7988" class="project-link">GitHub</a>
-                                    <a href="#" class="project-link">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">xv6 Operating System Enhancement</h3>
-                            <p class="project-description">
-                                Enhanced xv6 OS with Multi-Level Feedback Queue scheduler, Lazy Page Allocator, 
-                                and system call implementation, improving performance by 60%.
-                            </p>
-                            <div class="project-tech">
-                                <span class="tech-tag">C</span>
-                                <span class="tech-tag">Operating Systems</span>
-                                <span class="tech-tag">Memory Management</span>
-                                <span class="tech-tag">Scheduler</span>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/cxy7988/Kaggle_Predict_the_Introverts_from_the_Extroverts" class="project-link">GitHub</a>
                             </div>
                         </div>
                     </div>
-
-                    <div class="project-card">
-                        <div class="project-image">
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="https://github.com/cxy7988" class="project-link">GitHub</a>
-                                    <a href="#" class="project-link">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">VR Shopping Display System</h3>
-                            <p class="project-description">
-                                AR shopping system built with Unity and C#, featuring 3D product interactions, 
-                                reducing physical sample costs and improving demo efficiency by 35%.
-                            </p>
-                            <div class="project-tech">
-                                <span class="tech-tag">Unity</span>
-                                <span class="tech-tag">C#</span>
-                                <span class="tech-tag">AR/VR</span>
-                                <span class="tech-tag">3D Graphics</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="project-image">
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="https://github.com/cxy7988" class="project-link">GitHub</a>
-                                    <a href="#" class="project-link">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">Financial Research Platform</h3>
-                            <p class="project-description">
-                                Automated data collection and analysis platform using Python web crawlers and SQL, 
-                                with PSM-DID models achieving 91% explanatory power (R²).
-                            </p>
-                            <div class="project-tech">
-                                <span class="tech-tag">Python</span>
-                                <span class="tech-tag">SQL</span>
-                                <span class="tech-tag">Stata</span>
-                                <span class="tech-tag">Data Analysis</span>
-                            </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Course Table Converter</h3>
+                        <p class="project-description">
+                            Kean University students can use this project to convert official course table to .ics and .csv, so that they can easily import to Calendar or course table app like Lookus.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandss</span>
+                            <span class="tech-tag">pdfplumber</span>
                         </div>
                     </div>
                 </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">xv6 Operating System Enhancement</h3>
+                        <p class="project-description">
+                            Enhanced xv6 OS with Multi-Level Feedback Queue scheduler, Lazy Page Allocator, 
+                            and system call implementation, improving performance by 60%.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C</span>
+                            <span class="tech-tag">Operating Systems</span>
+                            <span class="tech-tag">Memory Management</span>
+                            <span class="tech-tag">Scheduler</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">VR Shopping Display System</h3>
+                        <p class="project-description">
+                            AR shopping system built with Unity and C#, featuring 3D product interactions, 
+                            reducing physical sample costs and improving demo efficiency by 35%.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">AR/VR</span>
+                            <span class="tech-tag">3D Graphics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Financial Research Platform</h3>
+                        <p class="project-description">
+                            Automated data collection and analysis platform using Python web crawlers and SQL, 
+                            with PSM-DID models achieving 91% explanatory power (R²).
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Stata</span>
+                            <span class="tech-tag">Data Analysis</span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -283,15 +267,21 @@
                             </div>
                         </div>
                         <div class="skill-item">
-                            <span class="skill-name">C/C++</span>
-                            <div class="skill-bar">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar"> 
+                                <div class="skill-progress" style="--width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">R</span>
+                            <div class="skill-bar"> 
                                 <div class="skill-progress" style="--width: 85%"></div>
                             </div>
                         </div>
                         <div class="skill-item">
-                            <span class="skill-name">Swift</span>
+                            <span class="skill-name">C/C++</span>
                             <div class="skill-bar">
-                                <div class="skill-progress" style="--width: 80%"></div>
+                                <div class="skill-progress" style="--width: 55%"></div>
                             </div>
                         </div>
                     </div>
@@ -301,27 +291,33 @@
                     <h3>Technologies & Tools</h3>
                     <div class="skills-list">
                         <div class="skill-item">
+                            <span class="skill-name">Data Visualization</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
                             <span class="skill-name">Machine Learning</span>
                             <div class="skill-bar">
                                 <div class="skill-progress" style="--width: 90%"></div>
                             </div>
                         </div>
                         <div class="skill-item">
-                            <span class="skill-name">SQL/Database</span>
+                            <span class="skill-name">Hypothesis Testing</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Hive/Hadoop</span>
                             <div class="skill-bar">
                                 <div class="skill-progress" style="--width: 85%"></div>
                             </div>
                         </div>
                         <div class="skill-item">
-                            <span class="skill-name">Flask/REST API</span>
+                            <span class="skill-name">Front End Development</span>
                             <div class="skill-bar">
-                                <div class="skill-progress" style="--width: 80%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Qt Framework</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="--width: 75%"></div>
+                                <div class="skill-progress" style="--width: 60%"></div>
                             </div>
                         </div>
                     </div>
@@ -344,16 +340,16 @@
                     </p>
                     <div class="contact-methods">
                         <div class="contact-method">
-                            <span class="contact-icon">📧</span>
-                            <span>cxy7988@gmail.com</span>
+                            <span class="contact-icon"></span>
+                            <a href="mailto:cxy7988@gmail.com">cxy7988@gmail.com</a>
                         </div>
                         <div class="contact-method">
-                            <span class="contact-icon">💼</span>
-                            <span>linkedin.com/in/xinyu-chen</span>
+                            <span class="contact-icon"></span>
+                            <a href="https://linkedin.com/in/xinyuchen04" target="_blank">linkedin.com/in/xinyuchen04</a>
                         </div>
                         <div class="contact-method">
-                            <span class="contact-icon">🐙</span>
-                            <span>github.com/cxy7988</span>
+                            <span class="contact-icon"></span>
+                            <a href="https://github.com/cxy7988" target="_blank">github.com/cxy7988</a>
                         </div>
                     </div>
                 </div>
