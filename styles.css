@@ -297,6 +297,8 @@ p {
 .tech-card:nth-child(2) { top: 0; right: 0; }
 .tech-card:nth-child(3) { bottom: 0; left: 0; }
 .tech-card:nth-child(4) { bottom: 0; right: 0; }
+.tech-card:nth-child(5) { top: 50%; left: -20px; transform: translateY(-50%); }
+.tech-card:nth-child(6) { top: 50%; right: -20px; transform: translateY(-50%); }
 
 /* About Section */
 .about {
